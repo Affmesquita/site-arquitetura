@@ -1,0 +1,155 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');/* 
+font-family: 'Roboto', sans-serif; Light 300 // Medium 500 */
+
+body {
+    height: 100vh;
+    width: 100vw;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+main {
+    background-image: url(../midia/img-fundo4.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+#cabeça {
+    padding: 80px 200px 40px 200px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {
+    font-weight: bolder;
+    font-size: 2em;
+
+    color: rgb(228, 39, 39);
+}
+#contato a {
+    display: flex;
+    flex-direction: row-reverse;
+
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+}
+#contato a:hover {
+    color: rgb(228, 39, 39);
+}
+
+/* CORPO //*/
+
+#abertura {
+    height: 700px;
+
+    margin: auto;
+    padding: 100px 200px;
+
+    color: aliceblue;
+
+    font-size: 2em;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#abertura p {
+    font-size: 20px;
+}
+#abertura h2 {
+    font-size: 20px;
+    color: rgb(228, 39, 39);
+}
+
+
+#textl {
+    width: 400px;
+}
+#cadastro {
+    padding: 20px;
+}
+#cadastroform {
+    width: 400px;
+    height: 450px;
+
+    padding: 10px;
+    margin: auto;
+
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.623);
+}
+#cadastroform input{
+    width: 156px;
+    padding: 10px;
+    margin: 10px;
+}
+#cadastroform textarea {
+    width: 341px;
+    padding: 15px;
+}
+#enviar {
+    width: 341px;
+}
+
+
+
+#projetos {
+    max-width: 1000px;
+    height: 500px;
+    margin: auto;
+    padding: 200px 40px 300px 40px;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: initial;
+}
+#projeto-text {
+    width: 400px;
+}
+#projeto-text h1 {
+    color: rgb(228, 39, 39);
+    font-size: 4em;
+    margin: 0px 0px 20px 0px;
+}
+#projeto-text p {
+    color: darkslategray;
+    font-weight: bold;
+}
+#detalhes {
+    width: 400px;
+}
+#detalhes h1 {
+    color: rgb(228, 39, 39);
+    font-size: 1em;
+    margin: 0px 0px 20px 0px;
+}
+#detalhes p {
+    color: darkslategray;
+    font-weight: bold;
+}
+
+
+#local {
+    width: 1000vw;
+    height: 300px;
+    margin: auto;
+
+    background-color: black;
+}
