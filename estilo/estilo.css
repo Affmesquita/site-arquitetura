@@ -147,9 +147,10 @@ main {
 
 
 #local {
-    width: 1000vw;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     margin: auto;
 
     background-color: black;
 }
+
