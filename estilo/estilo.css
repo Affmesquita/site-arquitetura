@@ -45,9 +45,11 @@ main {
     font-weight: bolder;
     font-size: 25px;
     color: black;
+
 }
 #contato a:hover {
     color: rgb(228, 39, 39);
+    transition-duration: 0.5s;
 }
 
 /* CORPO //*/
@@ -84,7 +86,7 @@ main {
 }
 #cadastroform {
     width: 400px;
-    height: 450px;
+    height: 520px;
 
     padding: 10px;
     margin: auto;
@@ -102,8 +104,10 @@ main {
     width: 341px;
     padding: 15px;
 }
-#enviar {
+#cadastroform [type=submit] {
     width: 341px;
+    border: 0px;
+    border-radius: 5px;
 }
 
 
@@ -112,7 +116,7 @@ main {
     max-width: 1000px;
     height: 500px;
     margin: auto;
-    padding: 200px 40px 300px 40px;
+    padding: 200px 40px 400px 40px;
 
 
     display: flex;
