@@ -264,7 +264,21 @@ main {
     #cadastroform{
         display: none;
     }
-
+    #interior {
+        display: grid;
+    }
+    #interior-img-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 50px;
+    }
+    #virgula {
+        display: none;
+    }
+    #social-media {
+        display: none;
+    }
 }
 @media (max-width: 761px) {
     main {
@@ -284,5 +298,14 @@ main {
     }
     #abertura {
         justify-content: center;
+    }
+    #detalhes {
+        display: none;
+    }
+    #interior-img-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 50px;
     }
 }
