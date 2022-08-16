@@ -248,7 +248,6 @@ main {
 #social-icon {
     padding-top: 50px;
 
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -258,5 +257,32 @@ main {
 }
 #social-icon > li:hover {
     transform: scale(1.2);
-    animation-delay: 2s;
+    animation-delay: 1s;
+}
+
+@media (max-width: 1109px) {
+    #cadastroform{
+        display: none;
+    }
+
+}
+@media (max-width: 761px) {
+    main {
+        background-position: left;
+        height: 700px;
+        padding: 1px;
+    }
+    #cabeça {
+        flex-direction: column;
+        color: black;
+    }
+    #contato  {
+        flex-direction: row;
+    }
+    #logo {
+        color: black;
+    }
+    #abertura {
+        justify-content: center;
+    }
 }
