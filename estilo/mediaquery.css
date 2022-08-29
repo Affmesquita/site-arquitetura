@@ -1,16 +1,33 @@
 @charset "UTF-8";
 
-@media (max-width: 992px) {
+
+@media (max-width: 1200px) {
+    main {
+        height: 300px;
+    }
     #cadastroform{
         display: none;
     }
+    #projeto {
+        height: 200px;
+    }
+    #projeto-text {
+        margin: auto;
+    }
+    #textl {
+        display: none;
+    }
+    #detalhes {
+        display: none;
+    }
     #interior {
-        display: grid;
+        margin: auto;
+        padding: 10px 200px;
     }
     #interior-img-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         grid-gap: 50px;
     }
     #virgula {
@@ -23,7 +40,7 @@
 @media (max-width: 768px) {
     main {
         background-position: left;
-        height: 700px;
+        height: 400px;
         padding: 1px;
     }
     #cabeça {
@@ -32,9 +49,6 @@
     }
     #contato  {
         flex-direction: row;
-    }
-    #logo {
-        color: black;
     }
     #abertura {
         justify-content: center;
